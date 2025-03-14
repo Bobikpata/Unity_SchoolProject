@@ -18,7 +18,7 @@ public class Credits : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (m_RectTransform.anchoredPosition.y > 14400)
+        if (m_RectTransform.anchoredPosition.y > 14300)
         {
             SceneManager.LoadScene(0);
         }
